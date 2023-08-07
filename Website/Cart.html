@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cart</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+    <h1> Cart</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Rice</td>
+          <td>3</td>
+          <td>$18</td>
+          <td><button class="remove-btn">Remove</button></td>
+        </tr>
+        <tr>
+          <td>Butter</td>
+          <td>1</td>
+          <td>$12</td>
+          <td><button class="remove-btn">Remove</button></td>
+        </tr>
+        <tr>
+          <td>Rice</td>
+          <td>3</td>
+          <td>$104.99</td>
+          <td><button class="remove-btn">Remove</button></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="total">
+      <strong>Total: $134.99</strong>
+    </div>
+    <div class="actions">
+      <a href="./checkout.html">
+          <button class="checkout-btn">Checkout</button>
+      </a>
+      <a href="./index.html">
+          <button class="continue-shopping-btn">Continue Shopping</button>
+      </a>
+  </div>
+  
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
